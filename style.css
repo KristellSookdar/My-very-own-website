@@ -118,5 +118,106 @@ p {
     height: 250px; /* Adjust image size */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image covers the area */
+}
 
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+    .text-container {
+        max-width: 70%;
+    }
+    .hero-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .pages {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 150px;
+    }
+
+    .subheading {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .text-container {
+        margin-right: 0;
+        max-width: 90%;
+    }
+
+    .hero-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .arrow-button {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pages {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .hero-button a {
+        padding: 8px 16px;
+    }
+
+    .subheading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .hero-button a {
+        padding: 6px 12px;
+    }
+
+    .subheading {
+        font-size: 24px;
+    }
+
+    .arrow-button {
+        font-size: 1.5rem;
+        bottom: 5px;
+        right: 5px;
+    }
 }
