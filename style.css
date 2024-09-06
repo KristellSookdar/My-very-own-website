@@ -84,7 +84,7 @@ p {
 .arrow-button {
     display: inline-block;
     margin-top: 20px; /* Space above the button */
-    padding: 1px;
+    padding: 10px;
     font-size: 1rem; /* Size of the arrow */
     color: #ce9d54; /* Arrow color */
     text-decoration: none;
@@ -92,6 +92,7 @@ p {
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
     position: absolute; /* Position the arrow */
     bottom: 20px; /* Adjust based on spacing needed */
+ 
     
 }
 
@@ -164,7 +165,7 @@ p {
 
     .arrow-button {
         bottom: 10px;
-        right: 10px;
+       
     }
 }
 
@@ -180,7 +181,10 @@ p {
     .about-text {
         font-size: 16px;
         max-width: 90%;
-        text-align: center;
+        text-align: left;
+        align-items: center;
+
+    
     }
 
     .hero-button a {
@@ -219,6 +223,6 @@ p {
     .arrow-button {
         font-size: 1.5rem;
         bottom: 5px;
-        right: 5px;
+        
     }
 }
