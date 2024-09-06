@@ -1,6 +1,7 @@
 /* GENERAL */
 
 html, body {
+    scroll-behavior: smooth;
     height: 100%;
     margin: 0;
     font-family: 'Lato'; /* Apply font globally */
@@ -55,7 +56,7 @@ p {
     text-align: left;
     align-items: center;
     justify-content: center;
-    word-spacing: 5px;
+    
 }
 
 .hero-button a {
@@ -83,15 +84,15 @@ p {
 .arrow-button {
     display: inline-block;
     margin-top: 20px; /* Space above the button */
-    padding: 10px;
-    font-size: 2rem; /* Size of the arrow */
+    padding: 1px;
+    font-size: 1rem; /* Size of the arrow */
     color: #ce9d54; /* Arrow color */
     text-decoration: none;
     background-color: #f3f3f3; /* Background color of the button */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
     position: absolute; /* Position the arrow */
     bottom: 20px; /* Adjust based on spacing needed */
-    right: 20px; /* Adjust based on spacing needed */
+    
 }
 
 .arrow-button:hover {
